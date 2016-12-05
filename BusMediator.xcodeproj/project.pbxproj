@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		039558011DF59347002AC625 /* BusMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 039558001DF59347002AC625 /* BusMediator.m */; };
 		972F46A11DF5685500BF9733 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 972F46A01DF5685500BF9733 /* main.m */; };
 		972F46A41DF5685500BF9733 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 972F46A31DF5685500BF9733 /* AppDelegate.m */; };
 		972F46A71DF5685500BF9733 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 972F46A61DF5685500BF9733 /* ViewController.m */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		039557FF1DF59347002AC625 /* BusMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusMediator.h; sourceTree = "<group>"; };
+		039558001DF59347002AC625 /* BusMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusMediator.m; sourceTree = "<group>"; };
+		039558051DF59AE0002AC625 /* BMService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMService.h; sourceTree = "<group>"; };
 		972F469C1DF5685400BF9733 /* BusMediator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusMediator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		972F46A01DF5685500BF9733 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		972F46A21DF5685500BF9733 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +43,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		039557FE1DF59339002AC625 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				039557FF1DF59347002AC625 /* BusMediator.h */,
+				039558001DF59347002AC625 /* BusMediator.m */,
+				039558051DF59AE0002AC625 /* BMService.h */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
+		};
 		972F46931DF5685400BF9733 = {
 			isa = PBXGroup;
 			children = (
@@ -58,7 +72,7 @@
 		972F469E1DF5685400BF9733 /* BusMediator */ = {
 			isa = PBXGroup;
 			children = (
-				972F46B61DF5687C00BF9733 /* Classes */,
+				039557FE1DF59339002AC625 /* Classes */,
 				972F46A21DF5685500BF9733 /* AppDelegate.h */,
 				972F46A31DF5685500BF9733 /* AppDelegate.m */,
 				972F46A51DF5685500BF9733 /* ViewController.h */,
@@ -78,13 +92,6 @@
 				972F46A01DF5685500BF9733 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		972F46B61DF5687C00BF9733 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +167,7 @@
 				972F46A71DF5685500BF9733 /* ViewController.m in Sources */,
 				972F46A41DF5685500BF9733 /* AppDelegate.m in Sources */,
 				972F46A11DF5685500BF9733 /* main.m in Sources */,
+				039558011DF59347002AC625 /* BusMediator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +314,7 @@
 				972F46B51DF5685700BF9733 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
